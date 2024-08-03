@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.navbar-left ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1vw;
+}
+
+.navbar-left ul li {
+  cursor: pointer;
+}
+
+.navbar-left img {
+  width: 9vw;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.profile-icon {
+  width: 2vw;
+  border-radius: 4px;
+}
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: pointer;
+  position: relative;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  width: max-content;
+  right: 0;
+  top: 110%;
+  background-color: gray;
+  color: white;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-profile:hover {
+  .dropdown {
+    display: block;
+  }
+}
