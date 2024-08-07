@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 1vw;
+  gap: 1.5vw;
 }
 
 .navbar-left ul li {
